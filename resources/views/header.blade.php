@@ -43,7 +43,7 @@
             <div class="main-menu__wrapper-inner">
                 <div class="main-menu__left">
                     <div class="main-menu__logo">
-                        <a href="index.html"><img src="assets/images/logo/okoblack.png" alt=""></a>
+                        <a href="/"><img src="{{ asset('assets/images/logo/okoblack.png') }}" alt="" style="display: flex; width: 50%;"></a>
                     </div>
                 </div>
                 <div class="main-menu__middle-box">
