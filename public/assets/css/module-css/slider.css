@@ -190,6 +190,8 @@
 .main-slider__btn-box {
     position: relative;
     display: block;
+    justify-content: center;
+    align-items: center;
 }
 
 .main-slider__btn-box .thm-btn::after {

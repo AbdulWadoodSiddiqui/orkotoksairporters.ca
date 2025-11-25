@@ -195,7 +195,7 @@
                         </div>
 
                         <!-- Submit Button -->
-                        <div class="col-xl-12">
+                        <div class="col-xl-12 d-flex justify-content-center">
                             <div class="search-car__btn-box">
                                 <button type="submit" class="thm-btn">Book Now
                                     <span class="fas fa-check"></span>

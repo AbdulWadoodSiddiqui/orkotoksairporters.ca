@@ -176,7 +176,7 @@
 
 .testimonial-one__carousel.owl-theme .owl-nav .owl-next:hover,
 .testimonial-one__carousel.owl-theme .owl-nav .owl-prev:hover {
-    background-color: rgba(var(--gorent-black-rgb), 1);
+    background-color: var(--gorent-black);
     color: var(--gorent-white);
 }
 

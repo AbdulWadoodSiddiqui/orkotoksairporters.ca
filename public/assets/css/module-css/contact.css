@@ -172,12 +172,16 @@
 
 .contact-info__single {
     position: relative;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     border-radius: var(--gorent-bdr-radius);
     background-color: rgba(var(--gorent-bdr-color-rgb), .70);
     text-align: center;
     padding: 40px 40px 41px;
     margin-bottom: 30px;
+    min-height: 280px;  /* Set a fixed minimum height */
 }
 
 .contact-info__icon {
@@ -191,6 +195,7 @@
     border-radius: 50%;
     margin: 0 auto;
     z-index: 1;
+    flex-shrink: 0;  /* Prevent icon from shrinking */
 }
 
 .contact-info__icon:before {
@@ -228,7 +233,6 @@
     color: var(--gorent-white);
 }
 
-
 .contact-info__single p {
     margin-top: 20px;
     margin-bottom: 5px;
@@ -246,7 +250,7 @@
 }
 
 .contact-info__single h3 a:hover {
-    color: var(--gorent-base)
+    color: var(--gorent-base);
 }
 
 
@@ -263,7 +267,7 @@
 .contact-page__inner {
     position: relative;
     display: block;
-    background-color: var(--gorent-black);
+    background-color: rgba(var(--gorent-bdr-color-rgb), .70);
     border-radius: 20px;
     padding: 60px 0 60px;
 }
@@ -296,7 +300,7 @@
     font-weight: 700;
     line-height: 1.2em;
     letter-spacing: -1.44px;
-    color: var(--gorent-white);
+    color: var(--gorent-black);
     margin-bottom: 26px;
 }
 
@@ -317,7 +321,7 @@
     height: 57px;
     width: 100%;
     background-color: rgba(var(--gorent-white-rgb), 0.05);
-    border: 1px solid rgba(var(--gorent-white-rgb), .10);
+    border: 2px solid rgba(var(--gorent-white-rgb), 1);
     padding-left: 20px;
     padding-right: 20px;
     outline: none;
@@ -336,7 +340,7 @@
     height: 57px;
     width: 100%;
     background-color: rgba(var(--gorent-white-rgb), 0.05);
-    border: 1px solid rgba(var(--gorent-white-rgb), .10);
+    border: 2px solid rgba(var(--gorent-white-rgb), 1) !important;
     padding-left: 20px;
     padding-right: 20px;
     outline: none;
@@ -355,7 +359,7 @@
     height: 175px;
     width: 100%;
     background-color: rgba(var(--gorent-white-rgb), 0.05);
-    border: 1px solid rgba(var(--gorent-white-rgb), .10);
+    border: 2px solid rgba(var(--gorent-white-rgb), 1);
     padding: 15px 20px 30px;
     border-radius: 20px;
     outline: none;

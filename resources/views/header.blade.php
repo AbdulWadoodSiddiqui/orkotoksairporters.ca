@@ -2,24 +2,24 @@
     <div class="main-menu__top">
         <div class="main-menu__top-inner">
             <ul class="list-unstyled main-menu__contact-list">
-                <li>
-                    <div class="icon">
-                        <i class="icon-call-2"></i>
-                    </div>
-                    <div class="text">
-                        <p><a href="tel:{{ env('Call') }}">{{ env('Number') }}</a>
-                        </p>
-                    </div>
-                </li>
-                <li>
-                    <div class="icon">
-                        <i class="icon-envelope-2"></i>
-                    </div>
-                    <div class="text">
-                        <p><a href="mailto:{{ env('Email') }}">{{ env('Email') }}</a>
-                        </p>
-                    </div>
-                </li>
+                <li><a href="tel:{{ env('Call') }}">
+                        <div class="icon">
+                            <i class="icon-call-2"></i>
+                        </div>
+                        <div class="text">
+                            <p><a href="tel:{{ env('Call') }}">{{ env('Number') }}</a>
+                            </p>
+                        </div>
+                    </a></li>
+                <li><a href="mailto:{{ env('Email') }}">
+                        <div class="icon">
+                            <i class="icon-envelope-2"></i>
+                        </div>
+                        <div class="text">
+                            <p><a href="mailto:{{ env('Email') }}">{{ env('Email') }}</a>
+                            </p>
+                        </div>
+                    </a></li>
                 <li>
                     <div class="icon">
                         <i class="icon-pin-2"></i>
@@ -43,7 +43,8 @@
             <div class="main-menu__wrapper-inner">
                 <div class="main-menu__left">
                     <div class="main-menu__logo">
-                        <a href="/"><img src="{{ asset('assets/images/logo/okoblack.png') }}" alt="" style="display: flex; width: 50%;"></a>
+                        <a href="/"><img src="{{ asset('assets/images/logo/okoblack.png') }}" alt=""
+                                style="display: flex;"></a>
                     </div>
                 </div>
                 <div class="main-menu__middle-box">
@@ -68,18 +69,21 @@
                         </ul>
                     </div>
                 </div>
-                <div class="main-menu__right">
-                    <div class="main-menu__call">
-                        <div class="main-menu__call-icon">
-                            <i class="icon-call-3"></i>
-                        </div>
-                        <div class="main-menu__call-content">
-                            <p class="main-menu__call-sub-title">Call Anytime</p>
-                            <h5 class="main-menu__call-number"><a href="tel:{{ env('Call') }}">{{ env('Number') }}</a>
-                            </h5>
+                <a href="tel:{{ env('Call') }}">
+                    <div class="main-menu__right">
+                        <div class="main-menu__call">
+                            <div class="main-menu__call-icon">
+                                <i class="icon-call-3"></i>
+                            </div>
+                            <div class="main-menu__call-content">
+                                <p class="main-menu__call-sub-title">Call Anytime</p>
+                                <h5 class="main-menu__call-number"><a href="tel:{{ env('Call') }}">{{ env('Number')
+                                        }}</a>
+                                </h5>   
+                            </div>
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
     </nav>

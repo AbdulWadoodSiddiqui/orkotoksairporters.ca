@@ -40,7 +40,6 @@
     background-color: rgba(var(--gorent-base-rgb), .10);
     padding: 50px 60px 40px;
     border-radius: var(--gorent-bdr-radius);
-    margin-right: 50px;
 }
 
 .search-car__tab-box {

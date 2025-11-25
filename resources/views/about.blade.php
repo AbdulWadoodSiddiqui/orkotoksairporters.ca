@@ -240,7 +240,7 @@
                         <img src="{{ asset('assets/images/icon/happy-customer.svg') }}" alt="">
                     </div>
                     <div class="counter-three__count-box">
-                        <h3 class="odometer odometer-auto-theme" data-count="350">
+                        <h3 class="odometer odometer-auto-theme" data-count="950">
                             <div class="odometer-inside"><span class="odometer-digit"><span
                                         class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span
                                             class="odometer-ribbon"><span class="odometer-ribbon-inner"><span

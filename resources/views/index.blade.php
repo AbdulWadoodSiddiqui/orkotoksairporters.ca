@@ -16,8 +16,9 @@
                     <h2 class="main-slider__title">Airport <span>Transfers</span></h2>
                     <p class="main-slider__sub-title-two">Experience</p>
                     <div class="main-slider__btn-and-video-box">
-                        <div class="main-slider__btn-box">
+                        <div class="main-slider__btn-box gap-3">
                             <a href="{{ route('book') }}" class="thm-btn">Book Online<span class="fas fa-arrow-right"></span></a>
+                            <a href="tel:{{ env('call') }}" class="slider-num">{{ env('Number') }}</a>
                         </div>
                     </div>
                 </div>
@@ -37,6 +38,7 @@
                     <div class="main-slider__btn-and-video-box">
                         <div class="main-slider__btn-box">
                             <a href="{{ route('book') }}" class="thm-btn">Book Online<span class="fas fa-arrow-right"></span></a>
+                            <a href="tel:{{ env('call') }}" class="slider-num">{{ env('Number') }}</a>
                         </div>
                     </div>
                 </div>
@@ -56,6 +58,7 @@
                     <div class="main-slider__btn-and-video-box">
                         <div class="main-slider__btn-box">
                             <a href="{{ route('book') }}" class="thm-btn">Book Online<span class="fas fa-arrow-right"></span></a>
+                            <a href="tel:{{ env('call') }}" class="slider-num">{{ env('Number') }}</a>
                         </div>
                     </div>
                 </div>
@@ -112,9 +115,6 @@
     <div class="container">
         <div class="section-title text-center sec-title-animation animation-style1">
             <div class="section-title__tagline-box justify-content-center">
-                <div class="section-title__tagline-shape">
-                    <img src="assets/images/shapes/section-title-tagline-shape-1.png" alt="">
-                </div>
                 <span class="section-title__tagline">Our Features</span>
             </div>
             <h2 class="section-title__title title-animation">Your Local Travel <br> Partner</h2>
@@ -226,9 +226,6 @@
                 <div class="about-one__right">
                     <div class="section-title text-left sec-title-animation animation-style1">
                         <div class="section-title__tagline-box">
-                            <div class="section-title__tagline-shape">
-                                <img src="assets/images/shapes/section-title-tagline-shape-1.png" alt="">
-                            </div>
                             <span class="section-title__tagline">About OKOTOKS AIRPORTERS</span>
                         </div>
                         <h2 class="section-title__title title-animation">WELCOME TO OKOTOKS AIRPORTERS</h2>
@@ -291,9 +288,6 @@
     <div class="container">
         <div class="section-title text-center sec-title-animation animation-style2">
             <div class="section-title__tagline-box justify-content-center">
-                <div class="section-title__tagline-shape">
-                    <img src="assets/images/shapes/section-title-tagline-shape-1.png" alt="">
-                </div>
                 <span class="section-title__tagline">Our Services</span>
             </div>
             <h2 class="section-title__title title-animation">Services We <br>Provide</h2>
@@ -370,9 +364,6 @@
     <div class="container">
         <div class="section-title text-left sec-title-animation animation-style2">
             <div class="section-title__tagline-box">
-                <div class="section-title__tagline-shape">
-                    <img src="assets/images/shapes/section-title-tagline-shape-1.png" alt="">
-                </div>
                 <span class="section-title__tagline">Our Testimonial</span>
             </div>
             <h2 class="section-title__title title-animation">What Peoples Say <br> about Orkotoks Airporter</h2>

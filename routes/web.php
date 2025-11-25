@@ -6,7 +6,7 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('book Online', function () {
+Route::get('book-online', function () {
     return view('book');
 })->name('book');
 

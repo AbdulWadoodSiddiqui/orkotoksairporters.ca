@@ -22,8 +22,8 @@
   --gorent-font-two: "Inter Tight", sans-serif;
   --gorent-gray: #868689;
   --gorent-gray-rgb: 134, 134, 137;
-  --gorent-base: #e60312;
-  --gorent-base-rgb: 230, 50, 20;
+  --gorent-base: #ff0516;
+  --gorent-base-rgb: 255, 5, 22;
   --gorent-black: #000000;
   --gorent-black-rgb: 19: 18: 34;
   --gorent-extra: #E3E3E3;
@@ -3045,8 +3045,14 @@ xs sidebar
 
 
 .main-menu__logo img {
-  width: 70%;
+  width: 50%;
   height: auto;
+}
+
+@media (max-width: 991px) {
+  .main-menu__logo img {
+    width: 35%;
+  }
 }
 
 .footer-widget__about-logo img{
@@ -3054,7 +3060,29 @@ xs sidebar
   height: auto;
 }
 
+.slider-num{
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--gorent-white);
+}
 
+.slider-num:hover{
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--gorent-base);
+}
+
+@media (max-width: 424px) {
+  .slider-num{
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 374px) {
+  .slider-num{
+    font-size: 15px;
+  }
+}
 
 
 /*--------------------------------------------------------------

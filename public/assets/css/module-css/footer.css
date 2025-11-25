@@ -29,7 +29,7 @@
 .site-footer__top-inner {
     position: relative;
     display: block;
-    padding: 120px 0 113px;
+    padding: 120px 0 0;
 }
 
 .footer-widget__about {

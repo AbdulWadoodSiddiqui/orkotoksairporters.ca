@@ -61,7 +61,7 @@
                 <div class="col-xl-12">
                     <div class="site-footer__bottom-inner">
                         <div class="site-footer__copyright">
-                            <p class="site-footer__copyright-text">©2025 Okotoks Airporters By <a
+                            <p class="site-footer__copyright-text">©2025 Okotoks Airporter By <a
                                     href="https://bmgroupinc.com/" target="_blank">BM_IT.</a> All Rights Reserved.</p>
                         </div>
                     </div>
