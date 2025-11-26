@@ -991,6 +991,13 @@ xs sidebar
   display: block;
 }
 
+@media (max-width: 991px) {
+  .main-menu__left {
+    display: block;
+    margin-right: auto;
+  }
+}
+
 .main-menu__logo {
   display: block;
   padding: 10px 0;
@@ -3055,32 +3062,32 @@ xs sidebar
   }
 }
 
-.footer-widget__about-logo img{
+.footer-widget__about-logo img {
   width: 70% !important;
   height: auto;
 }
 
-.slider-num{
-  font-size: 30px;
+.slider-num {
+  font-size: 29px;
   font-weight: 700;
   color: var(--gorent-white);
 }
 
-.slider-num:hover{
+.slider-num:hover {
   font-size: 30px;
   font-weight: 700;
   color: var(--gorent-base);
 }
 
 @media (max-width: 424px) {
-  .slider-num{
+  .slider-num {
     font-size: 20px;
   }
 }
 
 @media (max-width: 374px) {
-  .slider-num{
-    font-size: 15px;
+  .slider-num {
+    font-size: 14px;
   }
 }
 

@@ -37,7 +37,7 @@
                     <h2 class="main-slider__title">Reliable <span>Taxi</span></h2>
                     <p class="main-slider__sub-title-two">Experience</p>
                     <div class="main-slider__btn-and-video-box">
-                        <div class="main-slider__btn-box">
+                        <div class="main-slider__btn-box gap-3">
                             <a href="{{ route('book') }}" class="thm-btn">Book Online<span
                                     class="fas fa-arrow-right"></span></a>
                             <a href="tel:{{ env('call') }}" class="slider-num">{{ env('Number') }}</a>
@@ -58,7 +58,7 @@
                     <h2 class="main-slider__title">Premium <span>Rides</span></h2>
                     <p class="main-slider__sub-title-two">Experience</p>
                     <div class="main-slider__btn-and-video-box">
-                        <div class="main-slider__btn-box">
+                        <div class="main-slider__btn-box gap-3">
                             <a href="{{ route('book') }}" class="thm-btn">Book Online<span
                                     class="fas fa-arrow-right"></span></a>
                             <a href="tel:{{ env('call') }}" class="slider-num">{{ env('Number') }}</a>
@@ -82,22 +82,22 @@
                 </h2>
             </li>
             <li>
-                <h2 data-hover="Rates" class="sliding-text__title">Fast
+                <h2 data-hover="Fast" class="sliding-text__title">Fast
                     <span class="icon-cuv"></span>
                 </h2>
             </li>
             <li>
-                <h2 data-hover="Car" class="sliding-text__title">Comfort
+                <h2 data-hover="Comfort" class="sliding-text__title">Comfort
                     <span class="icon-jeep"></span>
                 </h2>
             </li>
             <li>
-                <h2 data-hover="Rental" class="sliding-text__title">Reliable
+                <h2 data-hover="Reliable" class="sliding-text__title">Reliable
                     <span class="icon-cuv"></span>
                 </h2>
             </li>
             <li>
-                <h2 data-hover="Worldwide" class="sliding-text__title">On-Time
+                <h2 data-hover="On-Time" class="sliding-text__title">On-Time
                     <span class="icon-jeep"></span>
                 </h2>
             </li>
@@ -245,8 +245,8 @@
                             <div class="about-one__progress">
                                 <h4 class="about-one__progress-title">Time Awareness</h4>
                                 <div class="bar">
-                                    <div class="bar-inner count-bar" data-percent="95%">
-                                        <div class="count-text">95%</div>
+                                    <div class="bar-inner count-bar" data-percent="100%">
+                                        <div class="count-text">100%</div>
                                     </div>
                                 </div>
                             </div>

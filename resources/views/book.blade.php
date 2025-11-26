@@ -23,8 +23,6 @@
 <!--Page Header End -->
 
 <section class="search-car" style="padding: 120px 0 120px;">
-    <div class="search-car__shape-1"></div>
-    <div class="search-car__shape-2"></div>
     <div class="container">
         <div class="search-car__inner">
             <div class="search-car__form-box">

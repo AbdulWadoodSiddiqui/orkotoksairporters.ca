@@ -80,8 +80,8 @@
                             <div class="about-one__progress">
                                 <h4 class="about-one__progress-title">Time Awareness</h4>
                                 <div class="bar">
-                                    <div class="bar-inner count-bar" data-percent="95%">
-                                        <div class="count-text">95%</div>
+                                    <div class="bar-inner count-bar" data-percent="100%">
+                                        <div class="count-text">100%</div>
                                     </div>
                                 </div>
                             </div>
